@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+
+    <img class="animate__animated animate__fadeInLeft" src="multimedia/logo.png" alt="" />
+
+    <h1 class="animate__animated animate__backInDown">Tic Tac Toe - Game</h1>
+    <p class="turno">Turno: Jugador 1</p>
+
+    <div class="tablero animate__animated animate__zoomIn">
+      <div class="tablero--casilla"></div>
+      <div class="tablero--casilla"></div>
+      <div class="tablero--casilla"></div>
+      <div class="tablero--casilla"></div>
+      <div class="tablero--casilla"></div>
+      <div class="tablero--casilla"></div>
+      <div class="tablero--casilla"></div>
+      <div class="tablero--casilla"></div>
+      <div class="tablero--casilla"></div>
+    </div>
+
+    <button class="btn-donate animate__animated animate__zoomInUp" onclick="comenzar()">Nueva partida</button>
+
+    <div class="comparativa animate__animated animate__fadeInRight">
+        <h1>MARCADOR</h1>
+        <h2 class="comparativa--j1">JUGADOR 1 : 0 - 0 </h2>
+        <h2 class="comparativa--j2">JUGADOR 2 : 0 - 0 </h2>
+    </div>
+
+
+    <footer>
+      <p>Página creada por <a href="https://albertogallardo.netlify.app">Alberto Gallardo</a></p>
+    </footer>
+
+    <script src="js/juego.js"></script>
+
+
+  </body>
+</html>
